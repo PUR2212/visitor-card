@@ -1,0 +1,13 @@
+from tkinter import *
+if __name__ == "__main__":
+    
+    me=Tk()
+    me.geometry("390x256")
+    me.title("VISITOR CARD")
+    melabel = Label(me,text="VISITOR CARD",bg='yellow',font=('Times',25,'bold'))
+    melabel.pack(side='top')
+    me.config(background='yellow')
+    mebutton1 = Label(me, text='Name: Purboshi Das\nCollege: SRMIST\nDepartment: CSE-CC',bg='yellow',font=('Times',20,'bold'))
+    mebutton1.pack(side='left')
+    
+    
